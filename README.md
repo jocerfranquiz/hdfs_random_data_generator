@@ -14,7 +14,10 @@ They are 3 Python scripts, one per section:
 2. Data Update: 2 parameters `python data_update.py <PATH> <FOLDER_NAME1>,<FOLDER_SIZE1>,<FOLDER_NAME2>,<FOLDER_SIZE>...`
 3. Data Backup: 2 parameters `python data_backup.py <PATH_SOURCE> <PATH_DESTINATION>`
 
-All parameters are mandatory. You can excecute the scripts with Python 2.7+ or Python 3.5+
+## Notes:
+* All parameters are mandatory. You can excecute the scripts with Python 2.7+ or Python 3.5+.
+* These scripts where tested on Ubuntu Xenial 16.04
+* Theoretically, they must run on Windows too (I repeat, theoretically)
 
 
 
