@@ -1,4 +1,4 @@
-# Repo for Section of the test
+# Repo for Section 1 of the test
 
 This repo is for the first section of the test. It took me longer because I wanted to do it as profesional as I could. That means I added many validations to the input parameters, such as:
 
