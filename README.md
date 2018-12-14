@@ -3,16 +3,16 @@
 They are 3 Python scripts:
 
 1. Data Generation (3 parameters)
-  * `python data_generate.py <PATH> <FILE_SIZE> <FOLDER_NAME1>,<FOLDER_SIZE1>,<FOLDER_NAME2>,<FOLDER_SIZE>...`
+  * `python data_generate.py <PATH> <FILE_SIZE> <FOLDER_NAME_1>,<FOLDER_SIZE_1>,<FOLDER_NAME_2>,<FOLDER_SIZE_2>...`
 2. Data Update (2 parameters)
-  * `python data_update.py <PATH> <FOLDER_NAME1>,<FOLDER_SIZE1>,<FOLDER_NAME2>,<FOLDER_SIZE>...`
+  * `python data_update.py <PATH> <FOLDER_NAME_1>,<FOLDER_SIZE_1>,<FOLDER_NAME_2>,<FOLDER_SIZE_2>...`
 3. Data Backup (2 parameters)
   * `python data_backup.py <PATH_SOURCE> <PATH_DESTINATION>`
   
 I added many validations to the input parameters, such as:
 * Path validation
 * Folder names without illegal characters
-* Format of parameter `<name1>,<size1>,<name2>,<size2>...` (size, composition, etc.)
+* Format of parameter `<name_1>,<size_1>,<name_2>,<size_2>...` (size, composition, etc.)
 * Zero or negative size folders or files
 * Available disk space
 
