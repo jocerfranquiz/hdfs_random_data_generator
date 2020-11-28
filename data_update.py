@@ -44,6 +44,7 @@ def name_size_validator(s):
     try:
       folder_sizes.append(int(size))
     except Exception as e:
+      sys.stdout.write(e)
       raise argparse.ArgumentTypeError("Folder's SIZE is not an integer")
 
   return dict(zip(folder_names, folder_sizes))
@@ -110,6 +111,7 @@ def folder_creator(path, folder_names):
     try:
       os.mkdir(os.path.join(path,name))
     except Exception as e:
+      sys.stdout.write(e)
       sys.stdout.write('Folder ' + name + ' already exist' +'\n')
       pass
   return
