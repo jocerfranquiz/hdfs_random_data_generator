@@ -55,7 +55,7 @@ def main(args):
             sys.stdout.write('{0} ---> {1}\n'.format(file_path, current_backup))
             shutil.copy(file_path, current_backup)
         except Exception as e:
-          pass
+          sys.stdout.write(e)
 
 if __name__ == '__main__':
   import argparse
