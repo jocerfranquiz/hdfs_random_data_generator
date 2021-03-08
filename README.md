@@ -1,3 +1,6 @@
+### UPDATE 2021-03-07:
+This was made with an old version of Python. It was just an experiment and is slow for large files.
+
 # Random Generator of files and folders
 
 They are 3 Python scripts:
